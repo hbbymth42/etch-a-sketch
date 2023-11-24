@@ -1,2 +1,2 @@
-# etch-a-sketch
-Etch-a-Sketch Project (TOP)
+# Etch-a-Sketch
+Etch-a-Sketch Project from TheOdinProject.
