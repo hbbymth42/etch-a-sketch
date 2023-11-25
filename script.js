@@ -8,9 +8,14 @@ function resetGrid(){
 }
 
 function setGrid(gridSize = 16) {
+    if (isNaN(+gridSize)) {
+        return alert("Please enter a valid number");
+    }
+
     if (gridSize > 100) {
         return alert("Please enter a grid size under 100.");
     }
+
     resetGrid();
     for (let i = 0; i < gridSize * gridSize; i++) {
         const square = document.createElement('div');
